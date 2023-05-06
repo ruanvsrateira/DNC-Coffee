@@ -64,6 +64,7 @@
               <a
                 class="nav-link"
                 href="#"
+                onclick="toggleModal()"
                 data-bs-toggle="modal"
                 data-bs-target="#meuModal"
               >
@@ -131,13 +132,17 @@
     </section>
 
     <!-- Modal -->
-    <div class="modal" id="meuModal">
+    <div
+      class="modal flex-row align-items-center justify-content-center"
+      id="meuModal"
+    >
       <div class="modal-dialog opacity-5">
         <div class="modal-content d-flex">
           <div class="modal-header border-0">
             <button
               type="button"
               class="btn-close"
+              onclick="toggleModal()"
               data-bs-dismiss="modal"
               aria-label="Fechar"
             ></button>
@@ -155,5 +160,8 @@
         </div>
       </div>
     </div>
+
+    <!-- Javascript -->
+    <script src="showModal.js"></script>
   </body>
 </html>
