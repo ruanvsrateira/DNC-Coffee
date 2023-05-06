@@ -27,10 +27,12 @@ article div {
     object-fit: cover;
   }
 
-  article.card-group div {
-  }
-
   .card img {
     height: 200px;
+  }
+
+  .btn {
+    width: 100%;
+    border-radius: 5px !important;
   }
 }
