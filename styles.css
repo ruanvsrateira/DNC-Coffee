@@ -1,0 +1,36 @@
+.nav-item a {
+  font-family: "Inter";
+  font-weight: 500;
+}
+
+.card img {
+  border-radius: 3px !important;
+}
+
+.modal h1,
+p {
+  font-family: "Montserrat";
+}
+
+.modal-backdrop {
+  background: rgba(217, 217, 217, 0.7);
+}
+
+article div {
+  min-width: 310px !important;
+  max-width: 310px !important;
+}
+
+@media only screen and (max-width: 660px) {
+  .banner-container img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  article.card-group div {
+  }
+
+  .card img {
+    height: 200px;
+  }
+}
